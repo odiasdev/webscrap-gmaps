@@ -1,0 +1,69 @@
+# Dados scrapados e outputs
+data/
+output/
+outputs/
+results/
+leads/
+raw_html/
+
+# Arquivos de dados
+*.csv
+*.xlsx
+*.xls
+*.json
+!package.json
+!package-lock.json
+!tsconfig.json
+
+# HTMLs scrapados
+*.html
+
+# Credenciais e ambiente
+.env
+.env.*
+.env.local
+cookies.json
+auth.json
+session.json
+config.local.py
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyw
+.pytest_cache/
+.coverage
+.venv/
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Playwright/Selenium
+chromedriver*
+geckodriver*
+playwright-report/
+test-results/
+.playwright/
+
+# Logs
+*.log
+logs/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Node (caso tenha)
+node_modules/
