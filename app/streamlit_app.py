@@ -137,13 +137,8 @@ st.set_page_config(page_title="Google Maps Scraper — Dashboard", layout="wide"
 
 c1, c2 = st.columns([4, 1])
 with c1:
-    st.title("🔎 SCRAPER DO NANDÃO")
+    st.title("🔎 SCRAPER ODIASDEV")
     st.caption("Multi-busca paralela • async Playwright • enriquecimento concorrente")
-with c2:
-    try:
-        st.image(r"C:\Users\ferna\Downloads\pontolouco.jpg", width=100)
-    except Exception:
-        st.write("🔥")
 
 
 # ----------------------------- run config -----------------------------
