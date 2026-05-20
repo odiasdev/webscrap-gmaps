@@ -137,7 +137,7 @@ st.set_page_config(page_title="Google Maps Scraper — Dashboard", layout="wide"
 
 c1, c2 = st.columns([4, 1])
 with c1:
-    st.title("🔎 SCRAPER ODIASDEV")
+    st.title("🔎 B2B Lead Scraper & AI Qualifier - ODIASDEV")
     st.caption("Multi-busca paralela • async Playwright • enriquecimento concorrente")
 
 
